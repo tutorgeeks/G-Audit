@@ -1,8 +1,8 @@
 import os
 from selenium import webdriver
 import time
-#chrome_d=os.environ['CHROME_DRIVER']
-driver = webdriver.Chrome('/var/lib/jenkins/workspace/G-Audit/chromedriver') #Path to ChromeDriver installation
+chrome_d=os.environ['CHROME_DRIVER']
+driver = webdriver.Chrome(chrome_d) #Path to ChromeDriver installation
 driver.implicitly_wait(5)
 print "Trying to login into Google..."
 driver.get("https://accounts.google.com")
