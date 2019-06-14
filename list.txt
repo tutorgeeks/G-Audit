@@ -1,0 +1,3 @@
+# Enter the list of websites that requires testing.
+google.com
+facebook.com
