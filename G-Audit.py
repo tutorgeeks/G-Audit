@@ -51,3 +51,7 @@ for j in websites:
         print "Access Denied:"+"https://sites.google.com/a/"+str(j)
 driver.close()
 fh.close()
+
+password="askdaskkakpasdasdojasodjaisdummy"
+api="asdjaishda891231231"
+token="29384892738472834asdasdasd"
